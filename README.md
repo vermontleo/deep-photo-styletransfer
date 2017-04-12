@@ -23,7 +23,7 @@ bash install-deps; # maybe skip
 sudo apt-get install libmatio2
 luarocks install matio
 luarocks install loadcaffe
-luarocks install torch  # (in ubuntu 16.04 LTSluarocks install torch and cutorch, ou will get something wrong in command:make lean && make
+luarocks install torch  # (in ubuntu 16.04 LTS) without luarocks install torch and cutorch, you will get something wrong in command:make lean && make
 uarocks install cutorch  # for example:cannot find lTHC or THC.h
 ```
 
